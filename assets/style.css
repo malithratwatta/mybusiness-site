@@ -1,4 +1,10 @@
 
-body {
-  scroll-behavior: smooth;
+.logo-large {
+  height: 60px;
+  transition: height 0.3s;
+}
+
+.logo-small {
+  height: 40px;
+  transition: height 0.3s;
 }
