@@ -14,9 +14,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="assets/logo.png" alt="Statspire Analytics Logo" id="logo" class="logo-large" />
-    </a>
+    <a class="navbar-brand" href="#">Statspire Analytics</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,10 +31,11 @@
 </nav>
 
 <header class="hero">
-  <div class="container">
-    <h1 class="display-4">Welcome to Statspire Analytics</h1>
-    <p class="lead">Transforming Data into Strategic Insights</p>
-    <a href="#contact" class="btn btn-light btn-lg mt-3">Get In Touch</a>
+  <div class="container hero-content" data-aos="fade-up">
+    <img src="assets/logo.png" alt="Statspire Analytics Logo" class="hero-logo animated-logo" data-aos="zoom-in">
+    <h1 class="display-4" data-aos="fade-up" data-aos-delay="200">Welcome to Statspire Analytics</h1>
+    <p class="lead" data-aos="fade-up" data-aos-delay="400">Transforming Data into Strategic Insights</p>
+    <a href="#contact" class="btn btn-light btn-lg mt-3" data-aos="fade-up" data-aos-delay="600">Get In Touch</a>
   </div>
 </header>
 
@@ -179,10 +178,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/script.js"></script>
-<!-- AOS Animation Library -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+<script>AOS.init();</script>
 </body>
 </html>
